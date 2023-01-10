@@ -1,0 +1,260 @@
+@import url("/assets/css/variables.css");
+
+.home-page {
+  color: var(--color-btn);
+}
+
+.home-page .about-eo,
+.home-page .message,
+.home-page .our-visions,
+.home-page .activity {
+  padding: 90px 1.25rem;
+  display: flex;
+}
+
+.home-page .message {
+  background: var(--base-color);
+}
+
+.home-page .about-eo__content-title,
+.home-page .message__content-title,
+.home-page .our-visions__content-title,
+.home-page .activity__content-title {
+  width: 35%;
+}
+
+.home-page .about-eo__content-main,
+.home-page .message__content-main,
+.home-page .our-visions__content-main,
+.home-page .activity__content-main {
+  width: 65%;
+}
+
+.home-page .about-eo__title {
+  color: var(--base-color);
+}
+
+.home-page .button-s {
+  display: none;
+}
+.home-page .button-l {
+  display: block;
+}
+
+.home-page .about-eo__sub-title,
+.home-page .message__sub-title,
+.home-page .our-visions__sub-title {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.home-page .about-eo__tag-a,
+.home-page .message__tag-a {
+  margin-top: 2.5rem;
+  margin-left: 0.5rem;
+}
+
+.home-page .about-eo__btn {
+  padding: 0.5rem 2.5rem;
+  border-radius: 50px;
+  background: var(--color-btn) !important;
+  border: unset;
+  color: var(--white-color) !important;
+  font-weight: 600;
+}
+
+.home-page .about-eo__btn:hover {
+}
+
+.home-page .about-eo__content {
+}
+
+.home-page .message {
+}
+.home-page .message__content-title {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.home-page .message .title-content {
+  display: inline-block;
+}
+
+.home-page .message .detail-info {
+  display: flex;
+  margin-top: 60px;
+}
+
+.home-page .detail-info__describe {
+  margin: 0 1.25rem;
+}
+
+.home-page .our-visions {
+  background-image: url(http://demo.test/wp-content/uploads/2023/01/vision.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.home-page .our-visions__content-title {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+.home-page .our-visions__title {
+}
+.home-page .our-visions__sub-title {
+}
+.home-page .our-visions__content-main {
+}
+.home-page .our-visions .block {
+  display: flex;
+  background-color: var(--base-color);
+  max-width: 350px;
+  padding: 30px 20px;
+  margin-left: auto;
+  margin-top: 20px;
+}
+.home-page .our-visions .block__index {
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+  line-height: inherit;
+}
+.home-page .our-visions .block__content {
+  border-left: solid 1px;
+  padding-left: 15px;
+}
+
+
+.home-page .our-visions .block__content p{
+  margin-top: 1.25rem;
+}
+
+.home-page .our-visions .block__title {
+  line-height: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  .home-page .detail-info__image img {
+    width: 330px;
+    height: 310px;
+    object-fit: cover;
+  }
+  .home-page .our-visions .block__title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home-page .button-s {
+    display: block;
+  }
+  .home-page .button-l {
+    display: none;
+  }
+
+  .home-page .about-eo {
+    padding: 60px 1.25rem;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+  }
+
+  .home-page .about-eo__sub-title {
+    margin-top: 0.625rem;
+  }
+
+  .home-page .about-eo__content-title {
+    width: 100%;
+  }
+
+  .home-page .about-eo__content-main {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .home-page .about-eo__tag-a {
+    margin-top: 0;
+  }
+
+  .home-page .message,
+  .home-page .our-visions {
+    flex-flow: column;
+  }
+
+  .home-page .message__content-main,
+  .home-page .message__content-title {
+    width: 100%;
+  }
+
+  .home-page .message__content-title{
+    order: 1;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .home-page .message__title-content{
+    text-align: center;
+  }
+  
+  .home-page .message__content-main{
+    order: 2;
+  }
+
+  .home-age .detail-info__image img{
+    max-width: 100%;
+  }
+
+  .home-page .message__title-content{
+    margin-top: 30px;
+  }
+
+  .home-page .message__sub-title{
+    margin-top: 0.625rem;
+  }
+
+  .home-page .message .detail-info{
+    display: block;
+  }
+
+  .home-page .detail-info__describe{
+    margin-top: 30px;
+  }
+
+  .home-page .detail-info__image img{
+    max-width: 100%;
+  }
+
+  .home-page .our-visions {
+    background-size: unset;
+    background-image: url(http://demo.test/wp-content/uploads/2023/01/vision.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
+  
+
+  .home-page .our-visions__content-title{
+    align-items: center;
+    width: 100%;
+  }
+
+  .home-page .our-visions__content-main {
+    width: 100%;
+}
+
+  .home-page .our-visions .block{
+    max-width: 100%;
+    padding: 40px 20px;
+  }
+
+
+  .home-page .our-visions__sub-title{
+    margin-top: 0.625rem;
+    margin-bottom: 30px;
+  }
+  
+}
