@@ -20,13 +20,13 @@
 <?php get_template_part('template-parts/footer/footer-widgets'); ?>
 
 <div class="sns">
-	<a href="#"  class="sns__item">
+	<a href="https://www.facebook.com/EOHokkaido"  class="sns__item">
 		<img src="http://demo.test/wp-content/uploads/2023/01/facebook.png" alt="facebook" class="sns__img">
 	</a>
-	<a href="#"  class="sns__item ms-4">
+	<a href="https://twitter.com/EO_Hokkaido"  class="sns__item ms-4">
 		<img src="http://demo.test/wp-content/uploads/2023/01/twitter.png" alt="twitter" class="sns__img">
 	</a>
-	<a href="#"  class="sns__item ms-4">
+	<a href="https://www.linkedin.com/company/eohokkaido/?original_referer=https%3A%2F%2Feohokkaido.org%2F"  class="sns__item ms-4">
 		<img src="http://demo.test/wp-content/uploads/2023/01/linkedin.png" alt="linkedin" class="sns__img">
 	</a>
 

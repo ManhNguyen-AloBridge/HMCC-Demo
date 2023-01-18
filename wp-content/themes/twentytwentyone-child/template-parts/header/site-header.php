@@ -19,7 +19,7 @@ $wrapper_classes .= has_nav_menu('primary') ? ' has-menu' : '';
 		<div class="l-header__head">
 
 			<div class="header__logo">
-				<a href="#">
+				<a href="<?= get_site_url()?>/?page_id=10">
 					<picture>
 						<img src="http://demo.test/wp-content/uploads/2023/01/logo.png" alt="EO Hokkaido" class="logo">
 					</picture>
@@ -28,11 +28,11 @@ $wrapper_classes .= has_nav_menu('primary') ? ' has-menu' : '';
 
 			<div class="header__bar">
 				<ul class="nav-bar">
-					<li class="nav-bar__item">Activity</li>
-					<li class="nav-bar__item">Member</li>
-					<li class="nav-bar__item">News</li>
-					<li class="nav-bar__item">join Us</li>
-					<li class="nav-bar__item">Contact</li>
+					<li class="nav-bar__item"><a href="<?= get_site_url()?>/?page_id=244">Activity</a></li>
+					<li class="nav-bar__item"><a href="<?= get_site_url()?>/?page_id=253">Member</a></li>
+					<li class="nav-bar__item"><a href="<?= get_site_url()?>/?page_id=263">News</a></li>
+					<li class="nav-bar__item"><a href="<?= get_site_url()?>/?page_id=270">join Us</a></li>
+					<li class="nav-bar__item"> <a href="https://www.google.com.vn/?hl=vi">Contact</a></li>
 				</ul>
 				<div class="map">
 					<p class="map__btn">JAPAN <i class="fa-solid fa-location-dot ps-2"></i></p>

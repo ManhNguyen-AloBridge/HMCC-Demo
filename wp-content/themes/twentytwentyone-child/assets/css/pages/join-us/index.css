@@ -1,0 +1,240 @@
+@import url("/assets/css/variables.css");
+
+.join-us {
+  margin-top: 67px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1.25rem;
+  padding-bottom: 60px;
+}
+
+.join-us__header {
+  text-align: center;
+}
+
+.join-us .join-us__sub-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--color-btn);
+  margin-top: 0.625rem;
+  margin-bottom: 30px;
+}
+
+.join-us .join-us__main {
+  /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.join-us__condition {
+  display: flex;
+  flex-wrap: wrap;
+}
+.join-us__condition-item {
+  color: var(--white-color);
+  padding: 0.625rem;
+}
+
+.join-us__condition-item .bg-color {
+  height: 8rem;
+  display: flex;
+  padding: 0.5rem;
+  background: var(--base-color);
+}
+
+.join-us__condition .condition-item__content {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.join-us__condition__content p {
+}
+
+.join-us__condition .condition-item__index {
+  font-style: italic;
+  transform: rotate(-12deg);
+  margin-right: 1.25rem;
+}
+
+.join-us__condition-item .border-index {
+  border-right: 3px solid white;
+  transform: rotate(12deg);
+  height: 6rem;
+}
+
+.join-us .join-us__step {
+  margin-top: 90px;
+}
+
+.join-us .step__title {
+  text-align: center;
+  font-weight: 600;
+}
+
+.join-us .step__title span {
+  border-bottom: solid 4px var(--color-btn);
+}
+
+.join-us .step-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.join-us .step-main__item {
+}
+.join-us .step-main__index {
+  text-align: center;
+}
+
+.join-us .step-main__index span {
+  color: var(--white-color);
+  width: 144px;
+  height: 144px;
+  background: var(--color-btn);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-weight: 500;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.join-us .step-main__title {
+  text-align: center;
+  font-weight: 700;
+  padding-top: 1.25rem;
+}
+
+.join-us .step-main__content {
+  margin: 0 1.25rem;
+}
+
+.join-us .enrollment-and-annual-fee{
+  text-align: center;
+}
+
+.join-us .enrollment-and-annual-fee__title{
+  text-align: center;
+  border-bottom: solid 4px var(--color-btn);
+  display: inline-block;
+  font-weight: 600;
+}
+
+.join-us .enrollment-and-annual-fee th{
+  background: var(--base-color);
+  color: var(--white-color);
+  text-align: center;
+}
+
+.join-us .enrollment-and-annual-fee td{
+  text-align: center;
+  font-weight: 500;
+  border: solid 1px var(--dotted-color);
+}
+
+.join-us .enrollment-and-annual-fee .text-month{
+  font-weight: unset;
+}
+
+.guest-participation-application{
+  text-align: center;
+  padding: 60px 0;
+  background: var(--base-color);
+  color: var(--white-color);
+}
+.guest-participation-application__title{
+  color: var(--color-btn);
+  font-weight: 600;
+}
+.guest-participation-application__sub-title{
+  margin-bottom: 0.625rem;
+  margin-top: 2.5rem;
+}
+.guest-participation-application__content{}
+.guest-participation-application__tag-a button{
+  margin-top: 30px;
+}
+.guest-participation-application__btn{
+  border-radius: 50px;
+  background: var(--color-btn) !important;
+  border: unset;
+  color: var(--white-color) !important;
+  font-weight: 600;}
+
+
+@media screen and (min-width: 1024px) {
+  .join-us__condition-item,
+  .join-us .step-main__item {
+    width: 33.3333%;
+  }
+
+  .join-us .step-main__item {
+    margin-top: 30px;
+  }
+
+  .guest-participation-application__tag-a button{
+    margin-top: 60px;
+  }
+
+  .join-us .enrollment-and-annual-fee {
+    margin-top: 90px;
+  }
+
+  .join-us .enrollment-and-annual-fee__title{
+    font-size: 1.5rem;
+  }
+
+  .guest-participation-application__btn{
+    padding: 1.5rem 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .join-us__condition-item {
+    width: 100%;
+  }
+
+  .join-us .step-main__content {
+    margin: 0;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .join-us .step-main__item {
+    width: 100%;
+    display: flex;
+    margin-top: 1.25rem;
+  }
+
+  .join-us .step-main__index {
+    margin-right: 1.25rem;
+  }
+
+  .join-us .step-main__index span {
+    height: 4rem;
+    width: 4rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .join-us .step-main__title {
+    text-align: unset;
+    font-size: 16px;
+  }
+
+  .join-us .enrollment-and-annual-fee {
+    margin-top: 60px;
+  }
+
+  .join-us .enrollment-and-annual-fee__title{
+    font-size: 1.25rem;
+  }
+
+  .guest-participation-application__btn{
+    padding: 0.5rem 2.5rem;
+    font-size: 1rem;
+  }
+}

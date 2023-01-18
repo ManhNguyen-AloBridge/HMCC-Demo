@@ -1,37 +1,50 @@
 @import url("/assets/css/variables.css");
 
-.home-page {
-  color: var(--color-btn);
-}
-
 .home-page .about-eo,
 .home-page .message,
 .home-page .our-visions,
-.home-page .activity {
+.home-page .activity,
+.home-page .eo-hokkaido,
+.home-page .member,
+.home-page .news {
   padding: 90px 1.25rem;
   display: flex;
 }
 
 .home-page .message {
+  color: var(--white-color);
   background: var(--base-color);
 }
 
 .home-page .about-eo__content-title,
 .home-page .message__content-title,
 .home-page .our-visions__content-title,
-.home-page .activity__content-title {
+.home-page .activity__content-title,
+.home-page .member__content-title,
+.home-page .news__content-title {
   width: 35%;
 }
 
 .home-page .about-eo__content-main,
 .home-page .message__content-main,
 .home-page .our-visions__content-main,
-.home-page .activity__content-main {
+.home-page .activity__content-main,
+.home-page .member__content-main,
+.home-page .news__content-main {
   width: 65%;
 }
 
-.home-page .about-eo__title {
+
+
+.home-page .about-eo__title,
+.home-page .our-visions__title,
+.home-page .join-us__title {
   color: var(--base-color);
+  font-weight: 600;
+}
+
+.home-page .message__title {
+  font-weight: 600;
 }
 
 .home-page .button-s {
@@ -43,18 +56,31 @@
 
 .home-page .about-eo__sub-title,
 .home-page .message__sub-title,
-.home-page .our-visions__sub-title {
+.home-page .our-visions__sub-title,
+.home-page .activity__sub-title,
+.home-page .join-us__sub-title,
+.home-page .eo-hokkaido__sub-title,
+.home-page .member__sub-title,
+.home-page .news__sub-title {
   font-size: 17px;
   font-weight: 700;
+  color: var(--color-btn);
 }
 
 .home-page .about-eo__tag-a,
-.home-page .message__tag-a {
+.home-page .message__tag-a,
+.home-page .activity__tag-a,
+.home-page .member__tag-a,
+.home-page .news__tag-a {
   margin-top: 2.5rem;
   margin-left: 0.5rem;
 }
 
-.home-page .about-eo__btn {
+.home-page .about-eo__btn,
+.home-page .activity__btn,
+.home-page .eo-hokkaido__btn,
+.home-page .member__btn,
+.home-page .news__btn {
   padding: 0.5rem 2.5rem;
   border-radius: 50px;
   background: var(--color-btn) !important;
@@ -63,14 +89,6 @@
   font-weight: 600;
 }
 
-.home-page .about-eo__btn:hover {
-}
-
-.home-page .about-eo__content {
-}
-
-.home-page .message {
-}
 .home-page .message__content-title {
   display: flex;
   justify-content: flex-end;
@@ -95,6 +113,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
+  color: var(--white-color);
 }
 
 .home-page .our-visions__content-title {
@@ -102,12 +121,7 @@
   justify-content: center;
   flex-flow: column;
 }
-.home-page .our-visions__title {
-}
-.home-page .our-visions__sub-title {
-}
-.home-page .our-visions__content-main {
-}
+
 .home-page .our-visions .block {
   display: flex;
   background-color: var(--base-color);
@@ -122,18 +136,167 @@
   padding-right: 15px;
   line-height: inherit;
 }
+
+.home-page .our-visions .block__index-number {
+  color: var(--color-btn);
+}
 .home-page .our-visions .block__content {
   border-left: solid 1px;
   padding-left: 15px;
 }
 
-
-.home-page .our-visions .block__content p{
+.home-page .our-visions .block__content p {
   margin-top: 1.25rem;
 }
 
 .home-page .our-visions .block__title {
   line-height: 1;
+}
+
+.home-page .activity {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: var(--base-color);
+  color: var(--white-color);
+}
+
+.home-page .activity__content-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-page .activity__content-title {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.home-page .activity .item {
+  width: 50%;
+  margin-top: 15px;
+  color: var(--white-color);
+}
+.home-page .activity .item:nth-child(2n) {
+  padding-left: 10px;
+  padding-right: 0;
+}
+.home-page .activity .item:nth-child(2n + 1) {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.home-page .activity .item__title {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+.home-page .activity .item__content {
+  padding: 1.25rem;
+  min-height: 270px;
+}
+
+.home-page .join-us {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 60px 1.25rem;
+}
+
+.home-page .join-us__btn {
+  width: 230px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  font-size: 1.4rem;
+  padding-left: unset;
+  padding-right: unset;
+  border-radius: 50px;
+  color: var(--white-color) !important;
+  background-color: var(--color-btn) !important;
+  border: unset;
+}
+
+.home-page .eo-hokkaido {
+  color: var(--white-color);
+}
+.home-page .eo-hokkaido__content-title {
+  width: 50%;
+}
+.home-page .eo-hokkaido__content-main {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.home-page .eo-hokkaido__content-main p {
+  max-width: 330px;
+  margin-left: auto;
+}
+.home-page .eo-hokkaido__title {
+}
+.home-page .eo-hokkaido__sub-title {
+  margin-top: 2.5rem;
+}
+
+.home-page .member__content-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-page .member__item {
+  width: 33.3333%;
+  padding: 0 10px;
+}
+.home-page .member__image {
+  position: relative;
+}
+.home-page .member__logo {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+}
+.home-page .member__position {
+  position: absolute;
+  bottom: 0;
+  color: var(--white-color);
+  width: 100%;
+  text-align: center;
+  background-color: var(--base-color);
+}
+.home-page .member__company {
+  margin-top: 0.625rem;
+  font-size: 0.625rem;
+}
+.home-page .member__name {
+  color: var(--color-btn);
+}
+.home-page .news {
+  background: var(--base-color);
+  color: var(--white-color);
+}
+
+.home-page .news__content-title {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home-page .news .item__content {
+  border-bottom: 1px solid var(--white-color);
+}
+.home-page .news .item__tag-a {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 15px 0;
+}
+
+.home-page .news .item__arrow-icon {
+  color: var(--white-color);
+}
+
+.home-page .news .item__title {
+}
+
+.home-page .news .item__describe {
+  padding-left: 3rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -145,6 +308,22 @@
   .home-page .our-visions .block__title {
     font-size: 2rem;
   }
+
+  .home-page .eo-hokkaido__sub-title {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .home-page .member__company {
+    margin-bottom: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .home-page .member__name {
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -155,11 +334,19 @@
     display: none;
   }
 
-  .home-page .about-eo {
+  .home-page .about-eo,
+  .home-page .news,
+  .home-page .eo-hokkaido,
+  .home-page .activity,
+  .home-page .message,
+  .home-page .our-visions{
     padding: 60px 1.25rem;
+    flex-flow: column;
+  }
+
+  .home-page .about-eo {
     display: flex;
     align-items: center;
-    flex-flow: column;
     text-align: center;
   }
 
@@ -167,12 +354,47 @@
     margin-top: 0.625rem;
   }
 
-  .home-page .about-eo__content-title {
+  .home-page .about-eo__content-title,
+  .home-page .about-eo__content-main,
+  .home-page .message__content-title,
+  .home-page .message__content-main,
+  .home-page .our-visions__content-title,
+  .home-page .our-visions__content-main,
+  .home-page .activity__content-main,
+  .home-page .activity__content-title,
+  .home-page .activity__tag-a,
+  .home-page .activity .item,
+  .home-page .eo-hokkaido__content-title,
+  .home-page .eo-hokkaido__content-main,
+  .home-page .eo-hokkaido__tag-a,
+  .home-page .member__content-title,
+  .home-page .member__content-main,
+  .home-page .news__content-main,
+  .home-page .news__content-title {
     width: 100%;
   }
 
+  .home-page .message__content-title,
+  .home-page .activity__content-title,
+  .home-page .eo-hokkaido__content-title,
+  .home-page .news__content-title {
+    order: 1;
+  }
+
+  .home-page .message__content-main,
+  .home-page .activity__content-main,
+  .home-page .eo-hokkaido__content-main,
+  .home-page .news__content-main {
+    order: 2;
+  }
+
+  .home-page .activity__tag-a,
+  .home-page .eo-hokkaido__tag-a,
+  .home-page .news__tag-a {
+    order: 3;
+  }
+
   .home-page .about-eo__content-main {
-    width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
   }
@@ -181,52 +403,34 @@
     margin-top: 0;
   }
 
-  .home-page .message,
-  .home-page .our-visions {
-    flex-flow: column;
-  }
-
-  .home-page .message__content-main,
   .home-page .message__content-title {
-    width: 100%;
-  }
-
-  .home-page .message__content-title{
-    order: 1;
     justify-content: center;
     text-align: center;
   }
-  
-  .home-page .message__title-content{
+
+  .home-page .message__title-content {
     text-align: center;
   }
-  
-  .home-page .message__content-main{
-    order: 2;
-  }
 
-  .home-age .detail-info__image img{
+  .home-page .detail-info__image img {
     max-width: 100%;
   }
 
-  .home-page .message__title-content{
+  .home-page .message__title-content {
     margin-top: 30px;
   }
 
-  .home-page .message__sub-title{
+  .home-page .message__sub-title,
+  .home-page .activity__sub-title {
     margin-top: 0.625rem;
   }
 
-  .home-page .message .detail-info{
+  .home-page .message .detail-info {
     display: block;
   }
 
-  .home-page .detail-info__describe{
+  .home-page .detail-info__describe {
     margin-top: 30px;
-  }
-
-  .home-page .detail-info__image img{
-    max-width: 100%;
   }
 
   .home-page .our-visions {
@@ -235,26 +439,97 @@
     background-repeat: no-repeat;
     background-position-x: center;
   }
-  
 
-  .home-page .our-visions__content-title{
+  .home-page .our-visions__content-title {
     align-items: center;
-    width: 100%;
   }
 
-  .home-page .our-visions__content-main {
-    width: 100%;
-}
-
-  .home-page .our-visions .block{
+  .home-page .our-visions .block {
     max-width: 100%;
     padding: 40px 20px;
   }
 
-
-  .home-page .our-visions__sub-title{
+  .home-page .our-visions__sub-title {
     margin-top: 0.625rem;
     margin-bottom: 30px;
   }
-  
+
+  .home-page .activity__content-title {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home-page .activity__tag-a {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .home-page .activity .item:nth-child(2n) {
+    padding-left: 0;
+  }
+  .home-page .activity .item:nth-child(2n + 1) {
+    padding-right: 0;
+  }
+
+  .home-page .activity .item__title {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .home-page .activity .item__content {
+    min-height: 170px;
+  }
+
+  .home-page .join-us__btn {
+    width: 9rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+
+
+  .home-page .eo-hokkaido__content-title {
+    text-align: center;
+  }
+
+  .home-page .eo-hokkaido__content-main p {
+    max-width: 100%;
+  }
+
+  .home-page .eo-hokkaido__tag-a {
+    text-align: center;
+  }
+
+  .home-page .eo-hokkaido__tag-a {
+    margin-top: 30px;
+  }
+
+  .home-page .member {
+    flex-flow: column;
+  }
+
+  .home-page .member__content-title {
+    text-align: center;
+  }
+
+  .home-page .member__tag-a {
+    text-align: center;
+  }
+
+  .home-page .member__item {
+    width: 50%;
+  }
+
+  .home-page .member__logo {
+    max-height: 33rem;
+    height: 60vw;
+  }
+
+  .home-page .news__content-title {
+    justify-content: center;
+  }
+
+  .home-page .news__tag-a {
+    text-align: center;
+  }
 }
