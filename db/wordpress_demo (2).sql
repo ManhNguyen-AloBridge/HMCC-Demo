@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: mysql
--- Thời gian đã tạo: Th1 18, 2023 lúc 06:59 AM
+-- Thời gian đã tạo: Th1 31, 2023 lúc 07:41 AM
 -- Phiên bản máy phục vụ: 8.0.31
 -- Phiên bản PHP: 8.0.25
 
@@ -440,7 +440,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (119, 'widget_tag_cloud', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (120, 'widget_nav_menu', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (121, 'widget_custom_html', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
-(122, '_transient_doing_cron', '1674025150.6652379035949707031250', 'yes'),
+(122, '_transient_doing_cron', '1674027206.6338698863983154296875', 'yes'),
 (125, 'theme_mods_twentytwentythree', 'a:3:{s:18:\"custom_css_post_id\";i:-1;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1672817054;s:4:\"data\";a:2:{s:19:\"wp_inactive_widgets\";a:5:{i:0;s:7:\"block-2\";i:1;s:7:\"block-3\";i:2;s:7:\"block-4\";i:3;s:7:\"block-5\";i:4;s:7:\"block-6\";}s:18:\"smartslider_area_1\";a:0:{}}}s:18:\"nav_menu_locations\";a:0:{}}', 'yes'),
 (128, 'auth_key', 'myy%:~si4k1=H0WKSw;H>v?bvz3;u<!hrB$AX_|E@`;(Nw`WyU*sp*|%p9C|!&)y', 'no'),
 (129, 'auth_salt', 'DQw!JVcub;%}gOD@!$UA,_KEtu[ +>7/o[UTjh||oo*DqfQB(6!)N!;vBec<OV=:', 'no'),
@@ -3733,7 +3733,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (3154, 378, '_wp_trash_meta_time', '1673838271'),
 (3155, 379, '_edit_lock', '1673838756:1'),
 (3324, 381, '_edit_last', '1'),
-(3325, 381, '_edit_lock', '1674013601:1'),
+(3325, 381, '_edit_lock', '1674027116:1'),
 (3326, 436, '_edit_lock', '1674013660:1'),
 (3327, 438, '_wp_attached_file', '2023/01/accelerator.jpg'),
 (3328, 438, '_wp_attachment_metadata', 'a:6:{s:5:\"width\";i:1920;s:6:\"height\";i:1280;s:4:\"file\";s:23:\"2023/01/accelerator.jpg\";s:8:\"filesize\";i:1770535;s:5:\"sizes\";a:6:{s:6:\"medium\";a:5:{s:4:\"file\";s:23:\"accelerator-300x200.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:200;s:9:\"mime-type\";s:10:\"image/jpeg\";s:8:\"filesize\";i:12609;}s:5:\"large\";a:5:{s:4:\"file\";s:24:\"accelerator-1024x683.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:683;s:9:\"mime-type\";s:10:\"image/jpeg\";s:8:\"filesize\";i:110691;}s:9:\"thumbnail\";a:5:{s:4:\"file\";s:23:\"accelerator-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";s:8:\"filesize\";i:5583;}s:12:\"medium_large\";a:5:{s:4:\"file\";s:23:\"accelerator-768x512.jpg\";s:5:\"width\";i:768;s:6:\"height\";i:512;s:9:\"mime-type\";s:10:\"image/jpeg\";s:8:\"filesize\";i:66495;}s:9:\"1536x1536\";a:5:{s:4:\"file\";s:25:\"accelerator-1536x1024.jpg\";s:5:\"width\";i:1536;s:6:\"height\";i:1024;s:9:\"mime-type\";s:10:\"image/jpeg\";s:8:\"filesize\";i:222607;}s:14:\"post-thumbnail\";a:5:{s:4:\"file\";s:25:\"accelerator-1568x1045.jpg\";s:5:\"width\";i:1568;s:6:\"height\";i:1045;s:9:\"mime-type\";s:10:\"image/jpeg\";s:8:\"filesize\";i:231278;}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
